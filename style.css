@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Barra de Navegacao */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;;
+    padding-right: 2vh;
+    padding-left: 2vh;
+    padding-bottom: 1.2vh;
+    padding-top: 1vh;
+}
+.botoes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 320px;
+}
+.products {
+    color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 150px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    background-color: #0A99FE;
+    border-radius: 8px;
+}
+.botoes button:hover {
+    background-color: #0A99FE;
+    color: white;
+}
+.contacts {
+    color: #0A99FE;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 150px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    background-color: rgb(10, 153, 254, 0.2);
+    border-radius: 8px;
+}
+
+/* Main */
+.paintings{
+    height: 380px;
+    padding: 10px;
+    padding-top: 20px;
+    overflow-x: auto;
+}
+.paintings h2 {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 30px;
+}
+.paintings ul {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+.paintings ul li a {
+    height: 275px;
+    width: 207px;
+    margin-left: 25px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+}
+.paintings ul li a img {
+    height: 350px;
+    overflow: hidden;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    
+}
+.figures{
+    height: 380px;
+    padding: 10px;
+    padding-top: 20px;
+    overflow-x: auto;
+}
+.figures h2 {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 30px;
+}
+.figures ul {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+.figures ul li a {
+    height: 275px;
+    width: 207px;
+    margin-left: 25px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+}
+.figures ul li a img {
+    height: 350px;
+    overflow: hidden;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    
+}
+.abaixo-da-foto {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 190px;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.abaixo-da-foto h3 {
+    font-size: 20px;
+    color: black;
+    
+}
+.abaixo-da-foto p {
+    font-size: 16px;
+    color: #868383;
+}
